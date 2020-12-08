@@ -82,7 +82,7 @@ outputs:
         - postgres --help
         - conda inspect linkages postgresql  # [not win]
         - conda inspect objects postgresql  # [osx]
-    script: install_db.sh   # [unix
+    script: install_db.sh   # [unix]
     script: install_db.bat  # [win]
     about:
       summary: PostgreSQL is a powerful, open source object-relational database system.
